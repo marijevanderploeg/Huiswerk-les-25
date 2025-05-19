@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Les 25</title>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js">
+    </script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+    $("#knop").click(function() {
+    var naam = $("#idTekstveld").val();
+    window.alert("Bedankt " + naam);
+    });
+    });
+    </script>
+</head>
+<body>
+    <h1>Welkom op mijn website!</h1>
+    <p>In deze les moest ik leren oven Javascript en jQuery. In het begin snapte ik er helemaal niks van. <br>
+        Nu denk ik dat ik het een beetje snap,
+        maar helemaal begrijp ik het niet. Ik zou dan eerder voorstander <br>
+        zijn van een video of meer foto's. Op die manier zou ik er meer van leren.
+        Ik leer namelijk om te kijken<br>
+         hoe iets moet! Zou je hieronder je naam willen achter laten?
+    </p>
+    <hr>
+    
+    <form>
+        Wat is je naam?
+        <input type="text" id="idTekstveld">
+        <input id="knop" name="knop" type="button"
+        value="Klik op deze knop">
+        </form>
+        <noscript>
+        Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+        </noscript>
+</body>
+</html>
